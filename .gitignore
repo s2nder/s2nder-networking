@@ -13,3 +13,7 @@
 
 # .pem files
 *.pem
+
+generated.txt
+imports.txt
+table.txt

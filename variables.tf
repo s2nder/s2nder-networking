@@ -11,13 +11,13 @@ variable "region" {
 variable "prefix" {
   type        = string
   description = "(Optional) Prefix to use for all resources in this module. Default: globo-dev"
-  default     = "globo-dev"
+  #default     = "globo-dev"
 }
 
 variable "enviroment" {
   type        = string
   description = "(Opetional) Enviroment of all resources"
-  default     = "development"
+  #default     = "development"
 }
 
 variable "billing_code" {
